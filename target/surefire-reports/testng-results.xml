@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-26T22:42:14 PDT" name="Suite" finished-at="2024-03-26T22:46:21 PDT" duration-ms="247078">
+    <groups>
+    </groups>
+    <test started-at="2024-03-26T22:42:14 PDT" name="Test" finished-at="2024-03-26T22:46:21 PDT" duration-ms="247078">
+      <class name="example.TestScenario1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:example.TestScenario1@5d740a0f]" started-at="2024-03-26T22:42:14 PDT" name="setUp" finished-at="2024-03-26T22:42:17 PDT" duration-ms="2590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPortal()[pri:0, instance:example.TestScenario1@5d740a0f]" started-at="2024-03-26T22:42:17 PDT" name="testPortal" finished-at="2024-03-26T22:43:12 PDT" duration-ms="55202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPortal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:example.TestScenario1@5d740a0f]" started-at="2024-03-26T22:43:12 PDT" name="tearDown" finished-at="2024-03-26T22:43:13 PDT" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- example.TestScenario1 -->
+      <class name="example.TestScenario4">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:example.TestScenario4@657c8ad9]" started-at="2024-03-26T22:44:39 PDT" name="setUp" finished-at="2024-03-26T22:44:41 PDT" duration-ms="1956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="classroomGuide()[pri:3, instance:example.TestScenario4@657c8ad9]" started-at="2024-03-26T22:44:41 PDT" name="classroomGuide" finished-at="2024-03-26T22:45:34 PDT" duration-ms="53244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- classroomGuide -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:example.TestScenario4@657c8ad9]" started-at="2024-03-26T22:45:34 PDT" name="tearDown" finished-at="2024-03-26T22:45:34 PDT" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- example.TestScenario4 -->
+      <class name="example.TestScenario5">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:example.TestScenario5@436a4e4b]" started-at="2024-03-26T22:45:34 PDT" name="setUp" finished-at="2024-03-26T22:45:36 PDT" duration-ms="1949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="academicCalendar()[pri:4, instance:example.TestScenario5@436a4e4b]" started-at="2024-03-26T22:45:36 PDT" name="academicCalendar" finished-at="2024-03-26T22:46:21 PDT" duration-ms="44234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- academicCalendar -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:example.TestScenario5@436a4e4b]" started-at="2024-03-26T22:46:21 PDT" name="tearDown" finished-at="2024-03-26T22:46:21 PDT" duration-ms="662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- example.TestScenario5 -->
+      <class name="example.TestScenario2">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:example.TestScenario2@6295d394]" started-at="2024-03-26T22:43:13 PDT" name="setUp" finished-at="2024-03-26T22:43:15 PDT" duration-ms="1960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCanvas(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:example.TestScenario2@6295d394]" started-at="2024-03-26T22:43:15 PDT" name="testCanvas" data-provider="todolist" finished-at="2024-03-26T22:43:42 PDT" duration-ms="27172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SQC LEC 1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[24-Mar-24]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4:00 PM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[prepare for project]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCanvas -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:example.TestScenario2@6295d394]" started-at="2024-03-26T22:43:42 PDT" name="tearDown" finished-at="2024-03-26T22:43:43 PDT" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:example.TestScenario2@6295d394]" started-at="2024-03-26T22:43:43 PDT" name="setUp" finished-at="2024-03-26T22:43:44 PDT" duration-ms="1958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testCanvas(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:example.TestScenario2@6295d394]" started-at="2024-03-26T22:43:44 PDT" name="testCanvas" data-provider="todolist" finished-at="2024-03-26T22:44:23 PDT" duration-ms="38430" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SQC LEC 2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[24-Mar-24]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[4:00 PM]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[prepare for quiz]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCanvas -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:example.TestScenario2@6295d394]" started-at="2024-03-26T22:44:23 PDT" name="tearDown" finished-at="2024-03-26T22:44:24 PDT" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- example.TestScenario2 -->
+      <class name="example.TestScenario3">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:example.TestScenario3@475e586c]" started-at="2024-03-26T22:44:24 PDT" name="setUp" finished-at="2024-03-26T22:44:26 PDT" duration-ms="1967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testClassroomPDFDownload()[pri:2, instance:example.TestScenario3@475e586c]" started-at="2024-03-26T22:44:26 PDT" name="testClassroomPDFDownload" finished-at="2024-03-26T22:44:38 PDT" duration-ms="12396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testClassroomPDFDownload -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:example.TestScenario3@475e586c]" started-at="2024-03-26T22:44:38 PDT" name="tearDown" finished-at="2024-03-26T22:44:39 PDT" duration-ms="523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- example.TestScenario3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

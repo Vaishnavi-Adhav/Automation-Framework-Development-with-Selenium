@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="247.454" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/vaishnaviadhav/Downloads/SeleniumTestCases/target/test-classes:/Users/vaishnaviadhav/Downloads/SeleniumTestCases/target/classes:/Users/vaishnaviadhav/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-java/4.6.0/selenium-java-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-api/4.6.0/selenium-api-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v105/4.6.0/selenium-devtools-v105-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v106/4.6.0/selenium-devtools-v106-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v107/4.6.0/selenium-devtools-v107-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.6.0/selenium-devtools-v85-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.6.0/selenium-edge-driver-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.6.0/selenium-firefox-driver-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.6.0/selenium-ie-driver-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.6.0/selenium-remote-driver-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-buffer/4.1.84.Final/netty-buffer-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-codec-http/4.1.84.Final/netty-codec-http-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-codec/4.1.84.Final/netty-codec-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-handler/4.1.84.Final/netty-handler-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-common/4.1.84.Final/netty-common-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.84.Final/netty-transport-classes-epoll-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.84.Final/netty-transport-classes-kqueue-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-transport-native-epoll/4.1.84.Final/netty-transport-native-epoll-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.84.Final/netty-transport-native-kqueue-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.84.Final/netty-transport-native-unix-common-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-transport/4.1.84.Final/netty-transport-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-resolver/4.1.84.Final/netty-resolver-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-api/1.19.0/opentelemetry-api-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-context/1.19.0/opentelemetry-context-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.19.0/opentelemetry-exporter-logging-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.19.0/opentelemetry-sdk-metrics-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.19.0-alpha/opentelemetry-sdk-logs-1.19.0-alpha.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.19.0-alpha/opentelemetry-api-logs-1.19.0-alpha.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.19.0/opentelemetry-sdk-common-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.19.0/opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.19.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-exporter-common/1.19.0/opentelemetry-exporter-common-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.19.0/opentelemetry-sdk-trace-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.19.0/opentelemetry-sdk-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.19.0-alpha/opentelemetry-semconv-1.19.0-alpha.jar:/Users/vaishnaviadhav/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/vaishnaviadhav/.m2/repository/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.jar:/Users/vaishnaviadhav/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/vaishnaviadhav/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/vaishnaviadhav/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/vaishnaviadhav/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/vaishnaviadhav/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/vaishnaviadhav/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/vaishnaviadhav/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-http/4.6.0/selenium-http-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.6.0/selenium-manager-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.6.0/selenium-safari-driver-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-support/4.6.0/selenium-support-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.6.0/selenium-chrome-driver-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/vaishnaviadhav/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/vaishnaviadhav/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/vaishnaviadhav/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/vaishnaviadhav/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/vaishnaviadhav/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vaishnaviadhav/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/vaishnaviadhav/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/vaishnaviadhav/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.6.0/selenium-chromium-driver-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-json/4.6.0/selenium-json-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/testng/testng/7.5.1/testng-7.5.1.jar:/Users/vaishnaviadhav/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/Users/vaishnaviadhav/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/vaishnaviadhav/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/vaishnaviadhav/.m2/repository/com/opencsv/opencsv/4.1/opencsv-4.1.jar:/Users/vaishnaviadhav/.m2/repository/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar:/Users/vaishnaviadhav/.m2/repository/org/apache/commons/commons-text/1.1/commons-text-1.1.jar:/Users/vaishnaviadhav/.m2/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/Users/vaishnaviadhav/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/vaishnaviadhav/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/vaishnaviadhav/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/vaishnaviadhav/Downloads/SeleniumTestCases/target/surefire/surefirebooter300242928467322402.jar /Users/vaishnaviadhav/Downloads/SeleniumTestCases/target/surefire 2024-03-26T22-42-14_099-jvmRun1 surefire7598848281837448570tmp surefire_05923683860074458278tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/vaishnaviadhav/Downloads/SeleniumTestCases/target/test-classes:/Users/vaishnaviadhav/Downloads/SeleniumTestCases/target/classes:/Users/vaishnaviadhav/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-java/4.6.0/selenium-java-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-api/4.6.0/selenium-api-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v105/4.6.0/selenium-devtools-v105-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v106/4.6.0/selenium-devtools-v106-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v107/4.6.0/selenium-devtools-v107-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.6.0/selenium-devtools-v85-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.6.0/selenium-edge-driver-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.6.0/selenium-firefox-driver-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.6.0/selenium-ie-driver-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.6.0/selenium-remote-driver-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-buffer/4.1.84.Final/netty-buffer-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-codec-http/4.1.84.Final/netty-codec-http-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-codec/4.1.84.Final/netty-codec-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-handler/4.1.84.Final/netty-handler-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-common/4.1.84.Final/netty-common-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.84.Final/netty-transport-classes-epoll-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-transport-classes-kqueue/4.1.84.Final/netty-transport-classes-kqueue-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-transport-native-epoll/4.1.84.Final/netty-transport-native-epoll-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.84.Final/netty-transport-native-kqueue-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.84.Final/netty-transport-native-unix-common-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-transport/4.1.84.Final/netty-transport-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-resolver/4.1.84.Final/netty-resolver-4.1.84.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-api/1.19.0/opentelemetry-api-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-context/1.19.0/opentelemetry-context-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.19.0/opentelemetry-exporter-logging-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.19.0/opentelemetry-sdk-metrics-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.19.0-alpha/opentelemetry-sdk-logs-1.19.0-alpha.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-api-logs/1.19.0-alpha/opentelemetry-api-logs-1.19.0-alpha.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.19.0/opentelemetry-sdk-common-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.19.0/opentelemetry-sdk-extension-autoconfigure-spi-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.19.0-alpha/opentelemetry-sdk-extension-autoconfigure-1.19.0-alpha.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-exporter-common/1.19.0/opentelemetry-exporter-common-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.19.0/opentelemetry-sdk-trace-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.19.0/opentelemetry-sdk-1.19.0.jar:/Users/vaishnaviadhav/.m2/repository/io/opentelemetry/opentelemetry-semconv/1.19.0-alpha/opentelemetry-semconv-1.19.0-alpha.jar:/Users/vaishnaviadhav/.m2/repository/io/ous/jtoml/2.0.0/jtoml-2.0.0.jar:/Users/vaishnaviadhav/.m2/repository/net/bytebuddy/byte-buddy/1.12.18/byte-buddy-1.12.18.jar:/Users/vaishnaviadhav/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/vaishnaviadhav/.m2/repository/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar:/Users/vaishnaviadhav/.m2/repository/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-transport-native-epoll/4.1.60.Final/netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar:/Users/vaishnaviadhav/.m2/repository/io/netty/netty-transport-native-kqueue/4.1.60.Final/netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar:/Users/vaishnaviadhav/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/vaishnaviadhav/.m2/repository/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar:/Users/vaishnaviadhav/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/vaishnaviadhav/.m2/repository/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-http/4.6.0/selenium-http-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/dev/failsafe/failsafe/3.3.0/failsafe-3.3.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.6.0/selenium-manager-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.6.0/selenium-safari-driver-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-support/4.6.0/selenium-support-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.6.0/selenium-chrome-driver-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/com/google/auto/service/auto-service-annotations/1.0.1/auto-service-annotations-1.0.1.jar:/Users/vaishnaviadhav/.m2/repository/com/google/auto/service/auto-service/1.0.1/auto-service-1.0.1.jar:/Users/vaishnaviadhav/.m2/repository/com/google/auto/auto-common/1.2/auto-common-1.2.jar:/Users/vaishnaviadhav/.m2/repository/com/google/guava/guava/31.1-jre/guava-31.1-jre.jar:/Users/vaishnaviadhav/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/Users/vaishnaviadhav/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/vaishnaviadhav/.m2/repository/org/checkerframework/checker-qual/3.12.0/checker-qual-3.12.0.jar:/Users/vaishnaviadhav/.m2/repository/com/google/errorprone/error_prone_annotations/2.11.0/error_prone_annotations-2.11.0.jar:/Users/vaishnaviadhav/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.6.0/selenium-chromium-driver-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/seleniumhq/selenium/selenium-json/4.6.0/selenium-json-4.6.0.jar:/Users/vaishnaviadhav/.m2/repository/org/testng/testng/7.5.1/testng-7.5.1.jar:/Users/vaishnaviadhav/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/Users/vaishnaviadhav/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/vaishnaviadhav/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/vaishnaviadhav/.m2/repository/com/opencsv/opencsv/4.1/opencsv-4.1.jar:/Users/vaishnaviadhav/.m2/repository/org/apache/commons/commons-lang3/3.6/commons-lang3-3.6.jar:/Users/vaishnaviadhav/.m2/repository/org/apache/commons/commons-text/1.1/commons-text-1.1.jar:/Users/vaishnaviadhav/.m2/repository/commons-beanutils/commons-beanutils/1.9.3/commons-beanutils-1.9.3.jar:/Users/vaishnaviadhav/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/vaishnaviadhav/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/vaishnaviadhav/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/vaishnaviadhav"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/21.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/vaishnaviadhav/Downloads/SeleniumTestCases"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/vaishnaviadhav/Downloads/SeleniumTestCases/target/surefire/surefirebooter300242928467322402.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="21.0.2"/>
+    <property name="user.name" value="vaishnaviadhav"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.0.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/vaishnaviadhav/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/pw/cdwpd4gj2m707h69_bvrf8vr0000gn/T/"/>
+    <property name="java.version" value="21.0.2"/>
+    <property name="user.dir" value="/Users/vaishnaviadhav/Downloads/SeleniumTestCases"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="webdriver.gecko.driver" value="/Users/vaishnaviadhav/Downloads/SeleniumTestCases/Selenium/geckodriver"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/vaishnaviadhav/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="21.0.2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testPortal" classname="example.TestScenario1" time="55.201">
+    <system-out><![CDATA[Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1-Login_20240326_224218.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1-Login_20240326_224219.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1-Login_20240326_224220.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1-Login_20240326_224220.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1-Login_20240326_224221.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1-Login_20240326_224221.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1-Login_20240326_224222.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1-Login_20240326_224227.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1-Login_20240326_224233.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1_20240326_224233.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1_20240326_224239.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1_20240326_224245.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1_20240326_224250.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1_20240326_224252.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1_20240326_224254.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1_20240326_224303.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1_20240326_224309.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_1_20240326_224312.png
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1711518134872	geckodriver	INFO	Listening on 127.0.0.1:48272
+1711518134993	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... /[::1]:42714/" "-foreground" "-no-remote" "-profile" "/var/folders/pw/cdwpd4gj2m707h69_bvrf8vr0000gn/T/rust_mozprofileVPZajD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711518135305	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-origins"
+1711518135530	Marionette	INFO	Listening on port 56106
+WebDriver BiDi listening on ws://127.0.0.1:42714
+1711518135652	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:42714/devtools/browser/88de16ad-8f6d-49ad-b84f-7fa3e2411989
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi!/experiment-apis/matchPatterns.js, line 18: NS_ERROR_MALFORMED_URI: 
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1711518141989	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://device.login.microsoftonline.com."
+1711518142330	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1711518142564	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.azureauth.duosecurity.com."
+1711518143469	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://api-6daaf5ea.duosecurity.com."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://api-6daaf5ea.duosecurity.com/frame/static/v4/App.js?v=5d9fe, line 2: Error: Communication error. Please try again.
+JavaScript error: https://api-6daaf5ea.duosecurity.com/frame/static/v4/App.js?v=5d9fe, line 2: Error: Communication error. Please try again.
+console.error: ({})
+1711518149693	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1711518151911	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1711518155623	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://device.login.microsoftonline.com."
+1711518155723	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1711518155949	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: ({})
+1711518165462	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://neuidmsso.neu.edu."
+JavaScript error: https://neuidmsso.neu.edu/idp/js/custom.js, line 16: TypeError: notificationClose is null
+1711518172873	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://api-6daaf5ea.duosecurity.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://bnrordsp.neu.edu."
+]]></system-err>
+  </testcase>
+  <testcase name="testCanvas[SQC LEC 1, 24-Mar-24, 4:00 PM, prepare for project](1)" classname="example.TestScenario2" time="27.173">
+    <system-out><![CDATA[Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224315.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224316.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224316.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224317.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224317.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224318.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224319.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224319.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224320.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224325.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224333.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224333.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224333.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224335.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224336.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224336.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224336.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224337.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224337.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224337.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224337.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224341.png
+]]></system-out>
+    <system-err><![CDATA[1711518192410	Marionette	INFO	Stopped listening on port 56106
+1711518193059	geckodriver	INFO	Listening on 127.0.0.1:27667
+1711518193068	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... /[::1]:13413/" "-foreground" "-no-remote" "-profile" "/var/folders/pw/cdwpd4gj2m707h69_bvrf8vr0000gn/T/rust_mozprofileKwVfC0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711518193338	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-origins"
+1711518193581	Marionette	INFO	Listening on port 56428
+WebDriver BiDi listening on ws://127.0.0.1:13413
+1711518193696	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:13413/devtools/browser/39813aaa-67ef-4f61-be5d-20632703552c
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi!/experiment-apis/matchPatterns.js, line 18: NS_ERROR_MALFORMED_URI: 
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1711518199931	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://device.login.microsoftonline.com."
+1711518200144	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1711518200578	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.azureauth.duosecurity.com."
+1711518201325	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://api-6daaf5ea.duosecurity.com."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://api-6daaf5ea.duosecurity.com/frame/static/v4/App.js?v=5d9fe, line 2: Error: Communication error. Please try again.
+JavaScript error: https://api-6daaf5ea.duosecurity.com/frame/static/v4/App.js?v=5d9fe, line 2: Error: Communication error. Please try again.
+console.error: ({})
+1711518207630	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1711518209907	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://instructure-uploads.s3.amazonaws.com/account_145230000000000001/attachments/25944206/NortheasternMainCanvas.js, line 1214: TypeError: document.getElementById(...) is null
+JavaScript error: https://northeastern.instructure.com/ line 719 > injectedScript, line 1: SyntaxError: redeclaration of const hostname
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://northeastern.instructure.com."
+JavaScript error: https://instructure-uploads.s3.amazonaws.com/account_145230000000000001/attachments/25944206/NortheasternMainCanvas.js, line 1214: TypeError: document.getElementById(...) is null
+JavaScript error: https://northeastern.instructure.com/calendar line 719 > injectedScript, line 1: SyntaxError: redeclaration of const hostname
+]]></system-err>
+  </testcase>
+  <testcase name="testCanvas[SQC LEC 2, 24-Mar-24, 4:00 PM, prepare for quiz](2)" classname="example.TestScenario2" time="38.432">
+    <system-out><![CDATA[Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224345.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224346.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224346.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224347.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224347.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224348.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224349.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224349.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224351.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224356.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2-Login_20240326_224415.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224415.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224415.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224416.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224417.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224417.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224418.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224418.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224418.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224418.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224418.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_2_20240326_224423.png
+]]></system-out>
+    <system-err><![CDATA[1711518222185	Marionette	INFO	Stopped listening on port 56428
+1711518223013	geckodriver	INFO	Listening on 127.0.0.1:33192
+1711518223021	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... //[::1]:9864/" "-foreground" "-no-remote" "-profile" "/var/folders/pw/cdwpd4gj2m707h69_bvrf8vr0000gn/T/rust_mozprofileYDf11L"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711518223295	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-origins"
+1711518223555	Marionette	INFO	Listening on port 56668
+WebDriver BiDi listening on ws://127.0.0.1:9864
+1711518223666	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:9864/devtools/browser/60e731d4-9cc9-4b1f-93c9-b40d7abc080b
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi!/experiment-apis/matchPatterns.js, line 18: NS_ERROR_MALFORMED_URI: 
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1711518230247	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://device.login.microsoftonline.com."
+1711518230482	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1711518230919	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.azureauth.duosecurity.com."
+1711518231922	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://api-6daaf5ea.duosecurity.com."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://api-6daaf5ea.duosecurity.com/frame/static/v4/App.js?v=5d9fe, line 2: Error: Communication error. Please try again.
+JavaScript error: https://api-6daaf5ea.duosecurity.com/frame/static/v4/App.js?v=5d9fe, line 2: Error: Communication error. Please try again.
+console.error: ({})
+1711518238049	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1711518240265	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1711518253318	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript error: https://instructure-uploads.s3.amazonaws.com/account_145230000000000001/attachments/25944206/NortheasternMainCanvas.js, line 1214: TypeError: document.getElementById(...) is null
+JavaScript error: https://northeastern.instructure.com/ line 719 > injectedScript, line 1: SyntaxError: redeclaration of const hostname
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://northeastern.instructure.com."
+JavaScript error: https://instructure-uploads.s3.amazonaws.com/account_145230000000000001/attachments/25944206/NortheasternMainCanvas.js, line 1214: TypeError: document.getElementById(...) is null
+JavaScript error: https://northeastern.instructure.com/calendar line 719 > injectedScript, line 1: SyntaxError: redeclaration of const hostname
+]]></system-err>
+  </testcase>
+  <testcase name="testClassroomPDFDownload" classname="example.TestScenario3" time="12.4">
+    <system-out><![CDATA[Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_3_20240326_224427.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_3_20240326_224427.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_3_20240326_224432.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_3_20240326_224436.png
+]]></system-out>
+    <system-err><![CDATA[1711518263395	Marionette	INFO	Stopped listening on port 56668
+JavaScript warning: https://neucanvas.eesysoft.com/v2/dist/index-SkIbVc_K.mjs, line 12195: Script terminated by timeout at:
+LR@https://neucanvas.eesysoft.com/v2/dist/index-SkIbVc_K.mjs:12195:12
+UP@https://neucanvas.eesysoft.com/v2/dist/index-SkIbVc_K.mjs:31419:5
+dq@https://neucanvas.eesysoft.com/v2/dist/index-SkIbVc_K.mjs:31406:10
+s6/<@https://neucanvas.eesysoft.com/v2/dist/index-SkIbVc_K.mjs:12187:13
+s6@https://neucanvas.eesysoft.com/v2/dist/index-SkIbVc_K.mjs:12186:16
+p2@https://neucanvas.eesysoft.com/v2/dist/index-SkIbVc_K.mjs:32342:11
+ba@https://neucanvas.eesysoft.com/v2/dist/index-SkIbVc_K.mjs:32345:125
+Jr/<@https://neucanvas.eesysoft.com/v2/dist/index-SkIbVc_K.mjs:32339:33
+dispatch@https://neucanvas.eesysoft.com/v2/dist/index-SkIbVc_K.mjs:1795:189
+T2/</add/Fe.handle@https://neucanvas.eesysoft.com/v2/dist/index-SkIbVc_K.mjs:1758:89
+trigger@https://neucanvas.eesysoft.com/v2/dist/index-SkIbVc_K.mjs:2968:165
+T2/</trigger/<@https://neucanvas.eesysoft.com/v2/dist/index-SkIbVc_K.mjs:2988:21
+each@https://neucanvas.eesysoft.com/v2/dist/index-SkIbVc_K.mjs:209:43
+each@https://neucanvas.eesysoft.com/v2/dist/index-SkIbVc_K.mjs:136:20
+trigger@https://neucanvas.eesysoft.com/v2/dist/index-SkIbVc_K.mjs:2987:23
+Uq/</t0<@https://neucanvas.eesysoft.com/v2/dist/index-SkIbVc_K.mjs:32061:19
+a@https://du11hjcvx0uqb.cloudfront.net/dist/webpack-production/main-entry-356a89e5c577a22a.js:2422:24104
+
+1711518264240	geckodriver	INFO	Listening on 127.0.0.1:5631
+1711518264249	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... /[::1]:38017/" "-foreground" "-no-remote" "-profile" "/var/folders/pw/cdwpd4gj2m707h69_bvrf8vr0000gn/T/rust_mozprofileD2DwmS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711518264516	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-origins"
+1711518264769	Marionette	INFO	Listening on port 56944
+WebDriver BiDi listening on ws://127.0.0.1:38017
+1711518264885	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:38017/devtools/browser/68df7016-9e6d-4d02-aa60-0b637308298c
+JavaScript error: resource://gre/modules/pdfjs.sys.mjs, line 27: NS_ERROR_FACTORY_NOT_REGISTERED: 
+JavaScript error: resource://gre/modules/pdfjs.sys.mjs, line 27: NS_ERROR_FACTORY_NOT_REGISTERED: 
+]]></system-err>
+  </testcase>
+  <testcase name="classroomGuide" classname="example.TestScenario4" time="53.25">
+    <system-out><![CDATA[Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_4_20240326_224448.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_4_20240326_224448.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_4_20240326_224454.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_4_20240326_224459.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_4_20240326_224504.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_4_20240326_224534.png
+]]></system-out>
+    <system-err><![CDATA[1711518278589	Marionette	INFO	Stopped listening on port 56944
+1711518279113	geckodriver	INFO	Listening on 127.0.0.1:4094
+1711518279121	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... /[::1]:16472/" "-foreground" "-no-remote" "-profile" "/var/folders/pw/cdwpd4gj2m707h69_bvrf8vr0000gn/T/rust_mozprofileoRKB4M"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711518279388	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-origins"
+1711518279610	Marionette	INFO	Listening on port 57076
+WebDriver BiDi listening on ws://127.0.0.1:16472
+1711518279792	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:16472/devtools/browser/3f590d85-612b-4bce-b6c2-05dcfd8fabad
+1711518309409	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+]]></system-err>
+  </testcase>
+  <testcase name="academicCalendar" classname="example.TestScenario5" time="44.238">
+    <system-out><![CDATA[Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5-Login_20240326_224537.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5-Login_20240326_224538.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5-Login_20240326_224539.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5-Login_20240326_224539.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5-Login_20240326_224540.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5-Login_20240326_224541.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5-Login_20240326_224542.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5-Login_20240326_224548.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5-Login_20240326_224553.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5_20240326_224557.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5_20240326_224558.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5_20240326_224559.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5_20240326_224559.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5_20240326_224603.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5_20240326_224608.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5_20240326_224612.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5_20240326_224616.png
+Screenshot taken: /Users/vaishnaviadhav/Downloads/SeleniumTestCases/src/test/java/example/screenshot/screenshots/screenshot_Scenario_5_20240326_224616.png
+Button 'Add to My Calendar' is present and visible!
+]]></system-out>
+    <system-err><![CDATA[1711518334307	Marionette	INFO	Stopped listening on port 57076
+1711518334842	geckodriver	INFO	Listening on 127.0.0.1:29371
+1711518334851	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... //[::1]:2223/" "-foreground" "-no-remote" "-profile" "/var/folders/pw/cdwpd4gj2m707h69_bvrf8vr0000gn/T/rust_mozprofilect6RRZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1711518335104	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+console.error: "Warning: unrecognized command line flag" "-remote-allow-origins"
+1711518335360	Marionette	INFO	Listening on port 57255
+WebDriver BiDi listening on ws://127.0.0.1:2223
+1711518335553	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:2223/devtools/browser/c42cb328-725a-4655-b09e-65d9c317b1b2
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/webcompat@mozilla.org.xpi!/experiment-apis/matchPatterns.js, line 18: NS_ERROR_MALFORMED_URI: 
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1711518341566	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://device.login.microsoftonline.com."
+1711518341764	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1711518341902	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://us.azureauth.duosecurity.com."
+1711518343047	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://api-6daaf5ea.duosecurity.com."
+console.error: ({})
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://api-6daaf5ea.duosecurity.com/frame/static/v4/App.js?v=5d9fe, line 2: Error: Communication error. Please try again.
+JavaScript error: https://api-6daaf5ea.duosecurity.com/frame/static/v4/App.js?v=5d9fe, line 2: Error: Communication error. Please try again.
+console.error: ({})
+1711518350018	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://login.microsoftonline.com."
+1711518352103	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: ({})
+1711518365132	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+]]></system-err>
+  </testcase>
+</testsuite>
