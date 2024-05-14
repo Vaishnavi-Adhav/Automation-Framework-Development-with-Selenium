@@ -1,32 +1,43 @@
-INFO6255 Selenium Project:
-Requirements:
-1. Use Maven as your project and add dependency in your pom.xml.
-2. Take screenshots before and after every step is successfully executed and save them in a folder with
-the scenario name.
-3. After a scenario is executed next scenario is run automatically without manual intervention.
-4. You can use Java or Python as a programming language.
-5. Add correct Assertions wherever required.
-6. Use the Data-Driven Automation Framework for your scripting. No hard coded values.
-6. Create an HTML report of the scenarios with the following columns:
- Test scenario name
- Actual
- Expected
- Pass/Fail
-Note:
-1) The HTML report is one way of generating a report, if you can think of something else you can
-implement it.
-2) Regarding two-factor authentication. YOU CAN hit the enter key once manually during your
-session for the two-factor authentication, that will be OK. Other than that, no other manual
-intervention will be acceptable.
-Team Presentations:
-1. You should upload one copy of your script to the Assignment on Canvas before the class.
-2. Each group will be called randomly to present their Selenium script.
-3. Your presentation should not be more than 10 minutes long.
-4. Select one representative from your group that will demo the script in the class.
-5. Your script should run seamlessly without any interruptions or manual intervention during the
-presentation. (Note: hitting the enter key once manually for the 2-factor authentication is the
-only exception!!!!).
-6. Practice good coding techniques (Appropriate comments in the code).
-7. Use an Excel data file for any data needed in your code. No Hard-coded values.
-8. All the group members must directly participate in the presentation and be ready to answer any
-questions.
+# INFO6255 Selenium Project
+
+## Project Requirements
+
+This project involves developing a Selenium-based testing framework with specific guidelines to ensure automation and repeatability.
+
+### Setup and Configuration
+- Utilize **Maven** as your project management and comprehension tool.
+- Add necessary dependencies in your `pom.xml`.
+
+### Testing and Execution
+- **Screenshots**: Capture screenshots before and after every successfully executed step, and save them in a folder named after the scenario.
+- **Automation**: Ensure that after a scenario is executed, the next scenario runs automatically without manual intervention.
+- **Programming Language**: You may use either Java or Python for scripting.
+- **Assertions**: Implement correct assertions throughout to validate test results against expected outcomes.
+
+### Framework and Data Handling
+- Employ a **Data-Driven Automation Framework** for scripting. Avoid hard-coded values.
+- Utilize an **Excel data file** for any required test data to ensure flexibility and reusability of test scripts.
+
+### Reporting
+- Generate an HTML report detailing the outcomes of test scenarios, including columns for:
+  - Test scenario name
+  - Actual results
+  - Expected results
+  - Pass/Fail status
+- Alternative reporting methods are acceptable if they provide equal or better clarity and detail.
+
+### Two-Factor Authentication Handling
+- **Manual Interaction**: You are allowed to manually hit the enter key once during your session for two-factor authentication. No other manual interventions are acceptable.
+
+## Team Presentations
+- **Submission**: Upload one copy of your script to the Assignment on Canvas before class.
+- **Presentation**: Each group will be called randomly to present their Selenium script, which should not exceed 10 minutes.
+- **Demonstration**: Select one representative from your group to demo the script in class. The script should run seamlessly without any interruptions (except for the allowed manual interaction for two-factor authentication).
+- **Code Quality**: Practice good coding techniques, including appropriate comments in the code.
+
+### Participation
+- All group members must actively participate in the presentation and be prepared to answer questions regarding the project.
+
+## Notes
+- This project is designed to assess your ability to integrate Selenium with various tools and frameworks to create a robust automated testing environment. Focus on delivering a solution that adheres to professional standards and demonstrates thorough understanding of automated testing principles.
+
